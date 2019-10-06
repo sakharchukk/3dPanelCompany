@@ -72,6 +72,33 @@ header{
 	}
 }
 
+.our_works{
+	.our_works__text{
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+		h3{
+			font-size: 23px;
+			margin-bottom: 10px;
+		}
+		p{
+			font-size: 20px;
+			margin-top: 10px;
+		}
+		.line{
+			width: 60px;
+			height: 1px;
+			background-color: #000;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.our_works__img{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+}
+
 .aboutUs{
 	background-color: rgb(209,202,201);
 	margin-top: -4px;
