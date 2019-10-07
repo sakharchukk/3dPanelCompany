@@ -116,3 +116,13 @@ header {
       margin-right: auto; }
     .aboutUs .aboutUs__main p {
       padding: 7px 30px; }
+
+
+
+/* footer */
+footer { 
+  background: url(img/footer_background-panel.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+}
