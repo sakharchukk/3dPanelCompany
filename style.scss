@@ -128,3 +128,39 @@ header{
     	}
 	}
 }
+
+.catalog{
+	.catalog__main{
+		width: 100%;
+		margin-top: 25px;
+		h3{
+			text-align: center;
+			font-weight: 500;
+		}
+	}
+	.catalog__list{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		.catalog__item{
+			width: 25.3%;
+			text-align: center;
+			margin-top: 30px;
+			h2{
+				font-weight: 100;
+			}
+			span{
+				color: #F56F22;
+			}
+			.catalog__button{
+				cursor: pointer;
+				width: 140px;
+   		 		margin: 0 auto;
+				p{
+					background-color: #FCD4BC;
+					padding: 8px;
+				}
+			}
+		}
+	}
+}

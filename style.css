@@ -117,12 +117,34 @@ header {
     .aboutUs .aboutUs__main p {
       padding: 7px 30px; }
 
+.catalog .catalog__main {
+  width: 100%;
+  margin-top: 25px; }
+  .catalog .catalog__main h3 {
+    text-align: center;
+    font-weight: 500; }
 
-
-/* footer */
-footer { 
-  background: url(img/footer_background-panel.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  position: fixed;
-}
+.catalog .catalog__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .catalog .catalog__list .catalog__item {
+    width: 25.3%;
+    text-align: center;
+    margin-top: 30px; }
+    .catalog .catalog__list .catalog__item h2 {
+      font-weight: 100; }
+    .catalog .catalog__list .catalog__item span {
+      color: #F56F22; }
+    .catalog .catalog__list .catalog__item .catalog__button {
+      cursor: pointer;
+      width: 140px;
+      margin: 0 auto; }
+      .catalog .catalog__list .catalog__item .catalog__button p {
+        background-color: #FCD4BC;
+        padding: 8px; }
