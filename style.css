@@ -86,18 +86,22 @@ header {
     height: 1px;
     background-color: #000;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+}
 
 .our_works .our_works__img {
   text-align: center;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
 .aboutUs {
-  background-color: #d1cac9;
+  background: url(img/office-1078869_1920.jpg) fixed no-repeat;
+  font-family: 'Donegal One', serif;
+  /*background-color: #d1cac9;*/
   margin-top: -4px;
-  height: 500px; }
+  height: 550px; }
   .aboutUs .aboutUs__main {
-    background-color: #fff;
+    background-color: #ffffffbd;
     text-align: center;
     max-width: 650px;
     width: 100%;
@@ -108,12 +112,12 @@ header {
     .aboutUs .aboutUs__main h3 {
       font-size: 23px;
       margin-top: 45px; }
-    .aboutUs .aboutUs__main .line {
+    /*.aboutUs .aboutUs__main .line {
       width: 60px;
       height: 1px;
       background-color: #d1cac9;
       margin-left: auto;
-      margin-right: auto; }
+      margin-right: auto; }*/
     .aboutUs .aboutUs__main p {
       padding: 7px 30px; }
 
