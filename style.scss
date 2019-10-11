@@ -172,6 +172,7 @@ header{
 footer{
 	background:url(img/background.svg)  100%;
 	width: 100%;
+	margin-top: 50px;
 	.footer__list{
 		margin-top: 40px;
 		display: flex;
@@ -180,6 +181,7 @@ footer{
 			h4{
 				font-size: 23px;
 				margin-top: 0;
+				margin-bottom: 0;
 			}
 			span{
 				margin-left: 40px;
@@ -205,6 +207,10 @@ footer{
 				}
 			}
 		}
+	}
+	.footer__item:first-child{
+		border-right: 2px solid silver;
+		padding: 10px;
 	}
 	.footer__social{
 				width: 100%;

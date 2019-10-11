@@ -154,7 +154,8 @@ header {
 
 footer {
   background: url(img/background.svg) 100%;
-  width: 100%; }
+  width: 100%;
+  margin-top: 50px; }
   footer .footer__list {
     margin-top: 40px;
     display: -webkit-box;
@@ -165,7 +166,8 @@ footer {
     justify-content: space-between; }
     footer .footer__list .footer__item h4 {
       font-size: 23px;
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 0; }
     footer .footer__list .footer__item span {
       margin-left: 40px;
       font-size: 20px; }
@@ -182,6 +184,9 @@ footer {
       transition: all .3s; }
       footer .footer__list .footer__item ul li:hover {
         color: #D84315; }
+  footer .footer__item:first-child {
+    border-right: 2px solid silver;
+    padding: 10px; }
   footer .footer__social {
     width: 100%;
     margin-top: 10px;
