@@ -103,9 +103,11 @@ header{
 	background-color: rgb(209,202,201);
 	margin-top: -4px;
 	height: 500px;
-	.aboutUs__main{
+	background: url(img/office-1078869_1920.jpg) 100% 100% no-repeat;
+	background-attachment: fixed;
+	.aboutUs__main{ 
 		h3{
-			font-size: 23px;
+			font-size: 25px;
 			margin-top: 45px;
 		}
 		.line{
@@ -123,6 +125,8 @@ header{
 		margin-right: auto;
 	    margin-top: 70px;
     	border-radius: 5px;
+    	// opacity: 0.9;
+    	background:rgba(255,255,255, 0.7);
     	p{
     		padding: 7px 30px;
     	}
