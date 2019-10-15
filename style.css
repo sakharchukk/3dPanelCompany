@@ -169,9 +169,6 @@ header {
   .orange
 */
 /*@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);*/
-.catalog_l .container {
-  width: 900px;
-}
 figure.snip1171 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
@@ -179,12 +176,24 @@ figure.snip1171 {
   margin: 10px;
   min-width: 220px;
   max-width: 225px;
-  width: 33%;
+  width: 100%;
   background: #000000;
   color: #333;
   text-align: left;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+
+.title_catalog__main {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    display: block;
+    font-size: 1.17em;
+    margin-bottom: 5px;
+    margin-top: 18px;
+    
+}
+
 figure.snip1171 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -290,25 +299,31 @@ figure.snip1171.blue h3:before {
 figure.snip1171.blue a:before {
   border-color: transparent transparent #2472a4;
 }
-figure.snip1171.red {
+figure.snip1171.black {
+  /*background-color: #ab3326;*/
+
+  background-color: #ab3326;
+  margin-left: 200px;
+  margin-right: -125px;
+}
+figure.snip1171.black h3,
+figure.snip1171.black a,
+figure.snip1171.black .price {
   background-color: #ab3326;
 }
-figure.snip1171.red h3,
-figure.snip1171.red a,
-figure.snip1171.red .price {
-  background-color: #ab3326;
-}
-figure.snip1171.red .price:before {
+figure.snip1171.black .price:before {
   border-color: transparent #ab3326 transparent;
 }
-figure.snip1171.red h3:before {
+figure.snip1171.black h3:before {
   border-color: transparent transparent transparent #ab3326;
 }
-figure.snip1171.red a:before {
+figure.snip1171.black a:before {
   border-color: transparent transparent #ab3326;
 }
 figure.snip1171.orange {
   background-color: #d67118;
+  margin-right: 200px;
+  margin-left: -125px;
 }
 figure.snip1171.orange h3,
 figure.snip1171.orange a,
