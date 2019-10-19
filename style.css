@@ -29,9 +29,10 @@ body {
   flex-wrap: wrap; }
 
 header {
-  padding: 30px 0;
+  padding: 20px 0;
   position: fixed;
   top: 0;
+  z-index: 2;
   width: 100%;
   background-color: #fafafa; }
   header .menu {
@@ -61,7 +62,7 @@ header {
   height: 500px   !important;
   -o-object-fit: fill;
   object-fit: fill;
-  margin-top: 88px; }
+  margin-top: 65px; }
 
 .services {
   background-color: #EDA030;
@@ -70,13 +71,16 @@ header {
   .services h3 {
     margin-left: auto;
     margin-right: auto; }
-
+.our_works:target{
+  padding-top: 105px; 
+  margin-top: -75px;
+}
 .our_works .our_works__text {
   width: 100%;
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 40px; }
   .our_works .our_works__text h3 {
-    font-size: 23px;
+    font-size: 25px;
     margin-bottom: 10px; }
   .our_works .our_works__text p {
     font-size: 20px;
@@ -90,7 +94,7 @@ header {
 
 .our_works .our_works__img {
   text-align: center;
-  margin-bottom: 40px; }
+  margin-bottom: 80px; }
 
 .aboutUs {
   background-color: #d1cac9;
@@ -120,55 +124,7 @@ header {
     .aboutUs .aboutUs__main p {
       padding: 7px 30px; }
 
-.catalog .catalog__main {
-  width: 100%;
-  margin-top: 25px; }
-  .catalog .catalog__main h3 {
-    text-align: center;
-    font-weight: 500; }
 
-.catalog .catalog__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  .catalog .catalog__list .catalog__item {
-    width: 25.3%;
-    text-align: center;
-    margin-top: 30px; }
-    .catalog .catalog__list .catalog__item h2 {
-      font-weight: 100; }
-    .catalog .catalog__list .catalog__item span {
-      color: #F56F22; }
-    .catalog .catalog__list .catalog__item .catalog__button {
-      cursor: pointer;
-      width: 140px;
-      margin: 0 auto; }
-      .catalog .catalog__list .catalog__item .catalog__button p {
-        background-color: #FCD4BC;
-        padding: 8px;
-        text-shadow: 0px 1px 0px #ffffff;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 3px; }
-      .catalog .catalog__list .catalog__item .catalog__button p:hover {
-          background:#ffdba4;
-      }
-      .catalog .catalog__list .catalog__item .catalog__button p:active {
-          background:#ffbc94;
-          transform: scale(0.95); 
-      }
-
-/* Included color classes.. 
-  .red 
-  .blue 
-  .orange
-*/
-/*@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);*/
 figure.snip1171 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
@@ -188,12 +144,18 @@ figure.snip1171 {
     text-align: center;
     font-weight: 500;
     display: block;
-    font-size: 1.17em;
-    margin-bottom: 5px;
-    margin-top: 18px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 42px;
     
 }
 
+.catalog_l__list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
 figure.snip1171 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -207,7 +169,10 @@ figure.snip1171 img {
 figure.snip1171 figcaption {
   position: relative;
   background-color: #ffffff;
-  padding: 20px 25px 50px;
+  padding: 20px 25px 65px;
+}
+figure.orange figcaption{
+   padding: 20px 25px 45px;
 }
 figure.snip1171 h3 {
   position: absolute;
@@ -303,8 +268,6 @@ figure.snip1171.black {
   /*background-color: #ab3326;*/
 
   background-color: #ab3326;
-  margin-left: 200px;
-  margin-right: -125px;
 }
 figure.snip1171.black h3,
 figure.snip1171.black a,
@@ -322,8 +285,6 @@ figure.snip1171.black a:before {
 }
 figure.snip1171.orange {
   background-color: #d67118;
-  margin-right: 200px;
-  margin-left: -125px;
 }
 figure.snip1171.orange h3,
 figure.snip1171.orange a,
@@ -343,6 +304,33 @@ figure.snip1171:hover img,
 figure.snip1171.hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+.content{
+  display: none;
+}
+#loadMore {
+  width: 130px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 45px auto 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #5130ED;
+  transition: .3s;
+}
+#loadMore:hover {
+  color: blue;
+  background-color: #fff;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+.noContent {
+  color: #000 !important;
+  background-color: transparent !important;
+  pointer-events: none;
+  font-size: 16px;
 }
 
 footer {
