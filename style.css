@@ -34,7 +34,8 @@ header {
   top: 0;
   z-index: 2;
   width: 100%;
-  background-color: #fafafa; }
+  background-color: #fafafa;
+  box-shadow: 0px 6px 5px -3px rgba(51,49,51,1); }
   header .menu {
     width: 100%;
     text-transform: uppercase; }
